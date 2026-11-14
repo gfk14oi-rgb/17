@@ -1,0 +1,18 @@
+{
+  "input_glb": "output.glb",
+  "output_glb": "character_final.glb",
+  "joints": [
+    {"name": "neck", "position": [0, 0, 1.2], "radius": 0.09},
+    {"name": "shoulder_l", "position": [-0.28, 0, 1.05], "radius": 0.08},
+    {"name": "shoulder_r", "position": [0.28, 0, 1.05], "radius": 0.08}
+  ],
+  "sculpt_ops": [
+    {"type": "inflate", "center": [0, 0.1, 0.95], "radius": 0.25, "strength": 0.05},
+    {"type": "pinch", "center": [0, 0, 1.2], "radius": 0.12, "strength": 0.08}
+  ],
+  "polish_iterations": 5,
+  "polish_mode": "taubin",
+  "gloss": 0.75,
+  "metallic": 0.1,
+  "base_color_rgba": [180, 200, 230, 255]
+}
